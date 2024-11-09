@@ -16,12 +16,16 @@ public class OperadorTernario {
         double prom;
         String condiFinal;
         String nombre;
+        int edad;
         
 
         Scanner leer = new Scanner(System.in);
         
         System.out.println("Cual es tu nombre? ");
         nombre = leer.nextLine();
+        
+        System.out.println("Cual es tu edad?");
+        edad = leer.nextInt();
 
         System.out.println("Ingrese el promedio del alumno: ");
         prom = leer.nextDouble();
@@ -29,5 +33,6 @@ public class OperadorTernario {
         condiFinal = (prom >= 11) ? "Aprobado" : "Desaprobado";
         
         System.out.println("Alumno: "+nombre+" Su condicion final del alumno es: "+condiFinal+" El promedio fue: "+prom);
+        System.out.println("Tu edad es: "+edad);
     }
 }
