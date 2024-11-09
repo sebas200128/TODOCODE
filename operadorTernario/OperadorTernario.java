@@ -23,6 +23,6 @@ public class OperadorTernario {
 
         condiFinal = (prom >= 11) ? "Aprobado" : "Desaprobado";
         
-        System.out.println("La condicion final del alumno es: "+condiFinal);
+        System.out.println("La condicion final del alumno es: "+condiFinal+" El promedio fue: "+prom);
     }
 }
